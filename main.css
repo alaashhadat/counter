@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(image/water-1330252__340.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.counter-box {
+  flex: 0 0 70%;
+  text-align: center;
+  border: 3px solid grey;
+  padding: 1rem;
+  box-shadow: 3px 3px 10px 10px black;
+}
+.counter {
+  font-size: 6rem;
+}
+.btn {
+  background: #0fff;
+  border-radius: 8px;
+  font-size: 2rem;
+  padding: 8.5rem 0.25rem;
+  border: 3px solid red;
+  box-shadow: 8px 5px black;
+  outline: none;
+}
+.btn-hover {
+  background-color: aquamarine;
+  color: white;
+}
+.btn-active {
+  box-shadow: none;
+}
